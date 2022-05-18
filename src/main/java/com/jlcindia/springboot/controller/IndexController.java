@@ -8,7 +8,7 @@ public class IndexController {
 	
 	@GetMapping("/")
 	public String showIndexPage() {
-		System.out.println("---------showIndexPage---------");
+		System.out.println("---------ShowIndexPage---------");
 		return "index";
 	}
 	
